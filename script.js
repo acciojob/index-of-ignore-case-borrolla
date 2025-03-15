@@ -1,10 +1,12 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-	const s1.indexOf(s2);
+	const lowerS1 = s1.toLowerCase();
+    const lowerS2 = s2.toLowerCase();
 
-	return s2;
+    // Find and return the index of lowerS2 in lowerS1
+    return lowerS1.indexOf(lowerS2);
 }
-return -1;
+
 
 
 // Please do not change the code below
